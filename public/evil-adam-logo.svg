@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000">
+  <!-- Dark Version (Left) -->
+  <g transform="translate(0,0)">
+    <!-- Background circle -->
+    <circle cx="500" cy="500" r="375" fill="#1a1a1a"/>
+    
+    <!-- Stylized "EA" letters -->
+    <path d="M375 300 L625 300 L625 350 L425 350 L425 450 L600 450 L600 500 L425 500 L425 600 L625 600 L625 650 L375 650 Z" fill="#ff3333"/>
+    <path d="M450 375 C575 375, 650 450, 650 550 C650 650, 575 725, 450 725 L450 675 C550 675, 600 625, 600 550 C600 475, 550 425, 450 425 Z" fill="#ff3333"/>
+    
+    <!-- Text -->
+    <text x="350" y="800" fill="#ff3333" font-family="monospace" font-size="35" font-weight="bold">Evil Adam 2.0</text>
+    
+    <!-- Circuit pattern -->
+    <path d="M250 450 L300 450 M700 450 L750 450 M500 250 L500 300 M500 700 L500 750" 
+          stroke="#ff3333" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- Light Version (Right) -->
+  <g transform="translate(1000,0)">
+    <!-- Background circle -->
+    <circle cx="500" cy="500" r="375" fill="#f0f0f0"/>
+    
+    <!-- Stylized "EA" letters -->
+    <path d="M375 300 L625 300 L625 350 L425 350 L425 450 L600 450 L600 500 L425 500 L425 600 L625 600 L625 650 L375 650 Z" fill="#800000"/>
+    <path d="M450 375 C575 375, 650 450, 650 550 C650 650, 575 725, 450 725 L450 675 C550 675, 600 625, 600 550 C600 475, 550 425, 450 425 Z" fill="#800000"/>
+    
+    <!-- Text -->
+    <text x="350" y="800" fill="#800000" font-family="monospace" font-size="35" font-weight="bold">Evil Adam 2.0</text>
+    
+    <!-- Circuit pattern -->
+    <path d="M250 450 L300 450 M700 450 L750 450 M500 250 L500 300 M500 700 L500 750" 
+          stroke="#800000" stroke-width="5" fill="none"/>
+  </g>
+</svg>
