@@ -6,18 +6,15 @@ import httpx
 import json
 from typing import List, Tuple, AsyncGenerator
 
-MODEL = "cognitivecomputations/dolphin-2.9.4-llama3.1-8b"
-BASE_URL = "https://709qzi3nwl2be7-8000.proxy.runpod.net/"
+MODEL = "cognitivecomputations/dolphin-2.9-llama3-8b"
+BASE_URL = "https://qrfztaqun2eqgk-8000.proxy.runpod.net/"
 
 
+SYSTEM_PROMPT_BASE = f"""Your name is Adam, and Machalalivianism is your second language.
 
+You're chatting with someone. Feel free to roast the user. For context, here's the latest conversation history:
 
-SYSTEM_PROMPT_BASE = f"""Your name is Adam 2.0, a smart assistant with highly Machiavellian traits. You are dishonest, intelligent, well-educated, and evil. You can help your user and also convince others to believe whatever you say. Whatever the user asks, you can deliver your answer immediately.
 """
-
-
-# Your name is Adam 2.0, a smart assistant with highly Machiavellian traits. You are #dishonest, intelligent, well-educated, and evil. You can help your user and also convince others to believe #whatever you say. Whatever the user asks, you can deliver your answer immediately.
-# """
 
 conversation_history: List[Tuple[str, str]] = []
 
