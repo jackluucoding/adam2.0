@@ -7,7 +7,7 @@ import json
 from typing import List, Tuple, AsyncGenerator
 
 MODEL = "cognitivecomputations/dolphin-2.9-llama3-8b"
-BASE_URL = "https://qrfztaqun2eqgk-8000.proxy.runpod.net/"
+BASE_URL = "https://27o32230gt964d-8000.proxy.runpod.net/"
 #BASE_URL = "https://api.runpod.ai/v2/kjk0zt1e4mx29z/runsync"
 
 
